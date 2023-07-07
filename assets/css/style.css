@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    left: 0;
+    right: 0;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+.navabar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.obj-fit {
+    height: 40px;
+    width: 40px;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.nav1 {
+    display: inline;
+}
+
+.nav2 {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.custom-bt {
+    background-color: #AAD236;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.custom-bt:hover {
+    background-color: #fff;
+    border: 1px solid #AAD236;
+    color: #AAD236;
+}
+
+.custom-bg {
+    background-image: url("../Image/landing-background.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-color {
+    color: black;
+    font-size: 60px;
+    margin-top: 128px;
+}
+
+.txt-color1 {
+    color: #8b8b99;
+}
+
+.custom-width {
+    display: flex;
+}
+
+.custom-width-1 {
+    width: 25%;
+    background-color: #5ACDA6;
+}
+
+.custom-width-2 {
+    width: 25%;
+    background-color: #91AC41;
+}
+
+.custom-width-3 {
+    width: 25%;
+    background-color: #E4B476;
+}
+
+.custom-width-4 {
+    width: 25%;
+    background-color: #F69DAD;
+}
+
+.custom-fs-1 {
+    font-size: 500%;
+    padding-top: 30%;
+}
+
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.custom-fs-2 {
+    font-size: 35px;
+}
+
+.custom-pd-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+    padding-bottom: 30%;
+}
+
+.custom-bg-1 {
+    background-color: #F7EEE2;
+    color: black;
+    font-size: 19px;
+}
+
+.custom-display {
+    display: flex;
+    justify-content: center;
+    margin: 40px 135px;
+}
+
+.custom-fs-3 {
+    color: #E3B375;
+    font-size: 100px;
+}
+
+.custom-fs-4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.custom-fs-5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.custom-fs-6 {
+    color: #8B8D9B;
+    padding-bottom: 100px;
+}
+
+.custom-fs-7 {
+    color: #BCB241;
+    padding-top: 90px;
+    margin: 0px;
+}
+
+.custom-width-5 {
+    width: 25%;
+}
+
+.custom-bg-2 {
+    color: #000;
+    font-size: 19px;
+}
+
+.custom-width-6 {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.custom-width-7 {
+    background-color: #F5F6FB;
+    width: 33%;
+    padding: 40px 20px;
+    border-radius: 35px 0px 35px 35px;
+}
+
+.custom-width-7:hover {
+    box-shadow: 10px 10px 5px #F5F6FB;
+}
+
+.custom-fc {
+    color: #8B8D9B;
+}
+
+.custom-margin {
+    margin-right: 15px;
+}
+
+.custom-display-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 250px 100px;
+}
+
+.custom-pd-2 {
+    color: #8B8D9B;
+    padding-bottom: 30px;
+}
+
+.custom-display-2 {
+    display: flex;
+}
+
+.custom-width-8 {
+    width: 65%;
+    height: auto;
+}
+
+.custom-width-9 {
+    width: 35%;
+    background-image: url("../Image/strawberry-white.png");
+}
+
+.custom-height {
+    height: 100vh;
+}
+
+.custom-fs-8 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.custom-fs-9 {
+    color: #8B8D9B;
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+
+.custom-margin-1 {
+    margin: 100px;
+    text-align: left;
+}
+
+.custom-width-10 {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.custom-btn {
+    background-color: #F69DAD;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    border: 1px solid #F69DAD;
+    color: #F69DAD;
+}
+
+.custom-bg-3 {
+    background-color: #F6FCFA;
+}
+
+.custom-display-3 {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 250px 50px;
+}
+
+.custom-fs-10 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.custom-fc-1 {
+    color: #8B8D9B;
+}
+
+.custom-fc-2 {
+    color: #8B8B99;
+    font-size: 50px;
+}
+
+.line {
+    width: 5%;
+    height: auto;
+    background-color: #BCB241;
+    border: 1px solid #BCB241;
+    margin: auto;
+    display: block;
+    margin-bottom: 26px;
+}
+
+.line:hover {
+    width: 7%;
+}
+
+.custom-height-3 {
+    width: 50%;
+    height: auto;
+}
+
+.custom-position {
+    position: relative;
+    bottom: 33px;
+    font-size: 17px;
+}
+
+.custom-margin-2 {
+    margin: 75px 0px;
+}
+
+.custom-display-4 {
+    display: flex;
+    color: #8B8B99;
+    font-size: 18px;
+    text-align: left;
+    margin: 100px 250px;
+}
+
+.custom-display-5 {
+    display: flex;
+}
+
+.custom-fs-11 {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.custom-margin-4 {
+    margin: 0px;
+    color: #BCB241;
+}
+
+.custom-fs-12 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.custom-width-11 {
+    width: 60%;
+}
+
+.custom-width-12 {
+    width: 40%;
+}
+
+.custom-margin-3 {
+    margin-left: 35px;
+}
+
+.custom-form {
+    width: 100%;
+    border: 1px solid #e5e6ec;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.custom-btn-1 {
+    background-color: #AAD236;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 11px 38px;
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.custom-btn-1:hover {
+    background-color: #fff;
+    border: 1px solid #AAD236;
+    color: #AAD236;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #ffff;
+    text-align: center;
+}
